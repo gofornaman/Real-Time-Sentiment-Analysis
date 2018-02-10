@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>WDIT</title>
+	<title>Emolyzer</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -15,13 +15,13 @@
 <body>
 	<div class='container-fluid'>
 		<div class='text-center'>
-			<h1>Electronic Virtual Voting Machine</h1>
-			<h5> Lets make India's election legit </h5>
+			<h1>Emolyzer</h1>
+			<h5> Making every emotion count! <br> This platform let's you perform a real time sentiment analysis on Tweets  </h5>
 			
 			<div id="search_box" class="container-fluid">
 				<input type="text" id="query">
 				<button id="search">Search</button>
-				<!--<button id="getcsv">Download CSV</button>-->
+				<button id="getcsv">Download CSV</button>
 				<div id="loading">Loading...</div>
 				<div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
 				
@@ -36,7 +36,7 @@
 	</div>
 
 		<footer class="text-center">
-			- Blitzkreig
+			- Developed by <a href="https://linkedin.com/in/naman-doshi"> Naman Doshi </a>
 		</footer>	</div>
 	<script type="text/javascript">
 
@@ -100,7 +100,7 @@
 		}
 
 		$(document).ready(function(){
-			load_tweets('Rahul Gandhi');
+			load_tweets('Data Science');
 		});
 
 		$('#search').click(function(){
